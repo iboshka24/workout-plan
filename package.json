@@ -1,0 +1,37 @@
+{
+  "name": "workout-plan",
+  "version": "1.0.0",
+  "description": "A week of training from your days, minutes, equipment and limits. Knee, back, shoulder aware. Zero dependencies, tested.",
+  "main": "src/index.js",
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test test/",
+    "prepublishOnly": "node --test test/"
+  },
+  "keywords": [
+    "тренировки",
+    "фитнес",
+    "план",
+    "гантели",
+    "калистеника",
+    "йога",
+    "пилатес"
+  ],
+  "license": "MIT",
+  "author": "iboshka24",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iboshka24/workout-plan.git"
+  },
+  "bugs": {
+    "url": "https://github.com/iboshka24/workout-plan/issues"
+  },
+  "homepage": "https://github.com/iboshka24/workout-plan#readme",
+  "engines": {
+    "node": ">=18"
+  }
+}
